@@ -43,6 +43,7 @@ body {
 }
 .row div:hover:after{
 	transform: translateY(-10px);
+	box-shadow: 0 12px 0 0;
 	transition: transform .2s ease-in-out;
 }
 .dark-checkers .row div:after {
@@ -79,25 +80,25 @@ body {
 .light-checkers .row:nth-child(4) {
 	top: 87.5%;
 }
-[class="checkers"] .row:nth-child(odd) :nth-child(2) {
+.row:nth-child(odd) :nth-child(2) {
 	left: 25%;
 }
-[class="checkers"] .row:nth-child(odd) :nth-child(3) {
+.row:nth-child(odd) :nth-child(3) {
 	left: 50%;
 }
-[class="checkers"] .row:nth-child(odd) :nth-child(4) {
+.row:nth-child(odd) :nth-child(4) {
 	left: 75%;
 }
-[class="checkers"] .row:nth-child(even) :nth-child(1) {
+.row:nth-child(even) :nth-child(1) {
 	left: 12.5%;
 }
-[class="checkers"] .row:nth-child(even) :nth-child(2) {
+.row:nth-child(even) :nth-child(2) {
 	left: 37.5%;
 }
-[class="checkers"] .row:nth-child(even) :nth-child(3) {
+.row:nth-child(even) :nth-child(3) {
 	left: 62.5%;
 }
-[class="checkers"] .row:nth-child(even) :nth-child(4) {
+.row:nth-child(even) :nth-child(4) {
 	left: 87.5%;
 }
 
